@@ -1,0 +1,155 @@
+.main-div{
+    width: 1480px;
+    margin: auto;
+    font-family: 'Almarai', sans-serif;;
+}
+.container{
+    width: 1050px;
+    margin: auto;
+}
+
+.header{
+    background-color: #101446;
+}
+.logo img{
+    width: 100px;
+}
+.logo{
+    padding: 5px 0;
+}
+.menu{
+}
+.menu ul{
+    text-align: right;
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    display: block;
+    line-height: 73px;
+    font-size: 14px;
+}
+/* banner section */
+.banner{
+    background-image: url(./intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    /* padding: 250px 0; */
+    text-align: center;
+    height: 720px;
+    position: relative;
+    z-index: 1;
+  
+}
+.banner::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner-cap h2 {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	margin-bottom: 36px;
+    margin-top: 291px;
+    font-weight: 600;
+    /* z-index: 2; */
+}
+.banner-cap p {
+	width: 900px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	font-size: 15px;
+    font-weight: 600;
+	
+}
+.banner-cap a {
+	margin: auto;
+
+    margin-top: 51px;
+}
+/* About */
+.about{
+    background-color: #bac1f3;
+    padding-bottom: 60px;
+}
+.about h1{
+    font-size: 60px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.div1 p{
+    width: 190px;
+    margin: auto;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.div1 a{
+    text-decoration: none;
+    background-color: #337ab7;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+
+}
+/* About-us */
+.about-us{
+    background-color: #c2d4ea;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.lorem1 p{
+    width: 400px;
+    line-height: 30px;
+    color: #605a6e;
+}
+.about-us h1{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+/* Contact-us */
+.contact-us{
+    padding: 40px 0;
+    background-color: #f5f5f5;
+}
+.contact-us h1{
+    padding-top: 30px;
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+/* Footer */
+.footer{
+    background-color: #0062d3;
+    padding: 20px 0;
+    line-height: 30px;
+}
+.ft-h span{
+    font-weight: 900;
+
+}
+.ft-h h5{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
